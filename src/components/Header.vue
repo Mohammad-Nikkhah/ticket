@@ -9,12 +9,12 @@
 
 <script>
 import Menu from './Menu.vue';
-
 export default {
   name: 'Header',
   components: {
     'Menu': Menu, 
-  }
+  },
+  
 }
 </script>
 
@@ -26,6 +26,7 @@ export default {
 }
 .nav {
   display: flex;
+
 }
 .logo {
   width: auto;

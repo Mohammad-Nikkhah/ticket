@@ -1,5 +1,5 @@
 <template>
-  <nav class="menu-header">
+  <nav class="menu-header d-flex justify-content-start">
     <li v-for="route in routes" :key="route.path">
        <router-link :to="route.path">{{ route.name }}</router-link>
     </li>
@@ -14,8 +14,8 @@ export default {
     return {
       routes: [
         { path: "/", name: "بلیط" },
-        { path: "/about", name: "اقامت" },
-        { path: "/contact", name: "تور" },
+        { path: "/hotel", name: "اقامت" },
+        { path: "/tour", name: "تور" },
       ],
     };
   }

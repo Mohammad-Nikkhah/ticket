@@ -87,10 +87,15 @@ export default {
   display: grid;
   justify-content: center;
   text-align: center;
-  margin-left: 30px;
-  margin-top: 15px;;
+  margin: 10px 20px;
 }
 
+a.router-link-active {
+  color:#0077db;
+  border-bottom:3px solid #0077db;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
 
 @font-face {
   font-family: 'Vazir';

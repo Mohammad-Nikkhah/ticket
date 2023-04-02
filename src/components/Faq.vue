@@ -71,6 +71,8 @@ li span {
   display: none;
   transition: all .5s;
   font-size: 13px;
+  padding: 0 35px;
+  text-align: right;
 }
 li.active span {
   display: block;

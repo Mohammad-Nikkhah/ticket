@@ -42,13 +42,17 @@ export default {
 
 .service-box ul li {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 70% 30%;
   align-items: center;
 
 }
 .service-box ul li  span{
   display: inline-block;
-
+  color: #6c7680;
+  font-size: 14px;
+  text-align: right;
+  padding-right: 10px;
+  font-weight: 400;
 }
 .service-box ul img {
   height: 50px;
@@ -56,7 +60,10 @@ export default {
 h3 {
   color:#4b5259;
   font-weight: 900;
-  font-size: 16px;
+  text-align: right;
+  font-size: 18px;
+  padding-right: 10px;
   margin: 0;
+  padding-bottom: 5px;
 }
 </style>

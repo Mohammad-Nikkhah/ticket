@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <Search/>
     <div class="box" v-for="ticket in tickets" :key="ticket.name">
       <div>
         <img :src="ticket.logo">
@@ -29,8 +30,11 @@
 
 <script>
 import axios from 'axios';
-
+import Search from '../components/Search.vue'
 export default {
+  components: {
+    Search
+  },
   data() {
     return {
       tickets:[]

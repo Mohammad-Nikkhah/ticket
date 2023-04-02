@@ -26,7 +26,8 @@ export default {
 }
 .nav {
   display: flex;
-
+  justify-content: start;
+  padding: 10px 0;
 }
 .logo {
   width: auto;

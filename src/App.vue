@@ -43,23 +43,23 @@
     </router-link> 
   </nav>
   <router-view/>
-  <Faq/>
-  <Footer/>
+  <!-- <Faq/>
+  <Footer/> -->
 </template>
 
 
 <script>
 import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
-import Footer from './components/Footer.vue'
-import Faq from './components/Faq.vue'
+// import Footer from './components/Footer.vue'
+// import Faq from './components/Faq.vue'
 export default {
   name: 'App',
   components: {
     Header,
     Hero,
-    Footer,
-    Faq
+    // Footer,
+    // Faq
   }
 }
 </script>
@@ -87,14 +87,13 @@ export default {
   display: grid;
   justify-content: center;
   text-align: center;
-  margin: 10px 20px;
+  margin: 10px 35px;
 }
 
 a.router-link-active {
   color:#0077db;
-  border-bottom:3px solid #0077db;
-  border-top-right-radius: 12px;
-  border-top-left-radius: 12px;
+  border-bottom:6px solid #0077db;
+  border-radius: 10px;
 }
 
 @font-face {

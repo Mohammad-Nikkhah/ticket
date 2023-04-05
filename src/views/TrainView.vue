@@ -22,6 +22,7 @@
      <div class="inner-box">
        <h3>{{ ticket.name }}</h3>
        <span>{{ ticket.price }}</span>
+       <button class="btn btn-sm">خرید بلیط</button>
      </div>
     </div>
   </div>
@@ -92,6 +93,12 @@ svg {
     top: 50%;
     right: 0.5rem;
     left: 0.5rem;
+}
+.btn-sm {
+  background-color: #0077db;
+  color:#fff;
+  font-size: 14px;
+  margin-bottom: 5px;
 }
 .box {
   border: solid 1px #0000001f;

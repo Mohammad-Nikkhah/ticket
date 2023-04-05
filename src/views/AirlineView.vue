@@ -22,6 +22,8 @@
      <div class="inner-box">
        <h3>{{ ticket.name }}</h3>
        <span>{{ ticket.price }}</span>
+       <button class="btn btn-sm">خرید بلیط</button>
+
      </div>
     </div>
   </div>
@@ -63,6 +65,13 @@ export default {
    align-items: center;
    width:100%;
    justify-content: center;
+}
+
+.btn-sm {
+  background-color: #0077db;
+  color:#fff;
+  font-size: 14px;
+  margin-bottom: 5px;
 }
 .custom-box:after {
     content: "";

@@ -22,7 +22,7 @@
      <div class="inner-box">
        <h3>{{ ticket.name }}</h3>
        <span>{{ ticket.price }}</span>
-       <button class="btn btn-sm">خرید بلیط</button>
+       <button class="btn btn-sm" @click="buyTicket(ticket)">خرید بلیط</button>
      </div>
     </div>
   </div>
@@ -45,6 +45,14 @@ export default {
      axios.get('http://localhost:3000/train')
        .then(res => this.tickets =res.data )
        .catch(err => console.log(err))
+  },
+
+  methods: {
+    buyTicket(ticket) {
+      // Here, you can define what should happen when the "خرید بلیط" button is clicked.
+      // For example, you could open a new window to a payment page, or display a modal window with a payment form.
+      console.log(`Buying ticket ${ticket.name}...`);
+    }
   }
 }
 </script>

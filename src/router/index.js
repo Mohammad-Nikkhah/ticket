@@ -33,6 +33,11 @@ const routes = [
     name: 'train',
     component: () => import('../views/TrainView.vue')
   },
+  {
+    path: '/bus',
+    name: 'bus',
+    component: () => import('../views/BusVeiw.vue')
+  },
 ]
 
 const router = createRouter({

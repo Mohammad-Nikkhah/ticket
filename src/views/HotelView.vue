@@ -59,14 +59,25 @@ export default {
   }
 
   .marker {
-     position: relative;
+    position: relative;
+  background-color: #fff;
+  color: #fff;
+  border: none;
+  padding:20px;
+  font-size: 16px;
+  width: fit-content;
+  cursor: pointer;
+  border-radius: 10px;
+
   }
   .marker::after {
-     content: "\f015";
-     font-family: "Font Awesome 5 Free";
-     position: absolute;
-     top: 0;
-    right: 0;
+    content: url("https://cdnfa.com/theme-80016/497a/uploads/icons8-home-page-30.png");
+   position: absolute;
+   right: 8px;
+   top: 50%;
+   transform: translateY(-50%);
+   height: 27px;
+   width: 27px;
   }
   .mapboxgl-popup-content {
     background-color: #fff;

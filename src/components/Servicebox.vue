@@ -34,6 +34,7 @@ export default {
   display: flex;
   justify-content: center;
   width: 100%;
+  border-bottom: 1px solid #0000001f ;
 }
 .service-box ul {
   display: flex;
